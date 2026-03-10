@@ -1,24 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Zion Fix Hub - Marzo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rey Panda - Soporte</title>
     <style>
-        body { background: #000; color: #fff; font-family: sans-serif; text-align: center; }
-        .btn { display: block; width: 80%; margin: 10px auto; padding: 20px; background: #222; border: 2px solid #ed1c24; color: #fff; text-decoration: none; font-weight: bold; border-radius: 10px; }
-        .seccion { color: #ed1c24; margin-top: 20px; text-transform: uppercase; }
+        body { background: #000; color: #fff; font-family: sans-serif; text-align: center; padding: 10px; }
+        h1 { color: #fff; font-size: 24px; margin-bottom: 5px; letter-spacing: 1px; }
+        .estado { color: #00ff00; font-size: 14px; margin-bottom: 25px; }
+        
+        /* TABLERO REY PANDA */
+        .tablero { 
+            background: #0a0a0a; 
+            border: 2px solid #ed1c24; 
+            border-radius: 12px; 
+            padding: 15px; 
+            margin: 0 auto 30px auto; 
+            width: 90%; 
+            max-width: 550px;
+            box-shadow: 0px 0px 10px rgba(237, 28, 36, 0.2);
+        }
+        .tablero-titulo { color: #ed1c24; font-weight: bold; font-size: 15px; margin-bottom: 8px; text-transform: uppercase; }
+        .tablero-texto { font-size: 14px; line-height: 1.5; color: #eee; text-align: left; padding: 0 10px; }
+
+        .seccion-titulo { color: #ed1c24; font-size: 13px; margin-top: 25px; text-transform: uppercase; letter-spacing: 1px; }
+        
+        .btn { 
+            display: block; width: 90%; max-width: 550px; margin: 12px auto; padding: 20px; 
+            background: #151515; border: 1.5px solid #ed1c24; color: #fff; 
+            text-decoration: none; font-weight: bold; border-radius: 10px; font-size: 17px; 
+            transition: 0.3s;
+        }
+        .btn:active { background: #ed1c24; transform: scale(0.98); }
+        
+        .footer { margin-top: 50px; color: #333; font-size: 11px; text-transform: uppercase; }
     </style>
 </head>
 <body>
-    <h1>Rey Panda👑🐼 - SOPORTE V3</h1>
-    <p>Estado del Servidor: ONLINE ✅</p>
 
-    <div class="seccion">📺 Televisión Digital</div>
-    <a href="TU_LINK_DE_TELEGRAM_1" class="btn">Descargar App TV1</a>
-    
-    <div class="seccion">🎬 Películas y Series</div>
-    <a href="TU_LINK_DE_TELEGRAM_2" class="btn">Descargar App PS1</a>
+    <h1>Rey Panda 👑 🐼 - SOPORTE V3</h1>
+    <div class="estado">Estado del Servidor: ONLINE ✅</div>
 
-    <div class="seccion">⚽ Deportes</div>
-    <a href="TU_LINK_DE_TELEGRAM_3" class="btn">Descargar App Dep1</a>
+    <!-- TABLERO DE ANUNCIOS -->
+    <div class="tablero">
+        <div class="tablero-titulo">📢 AVISOS IMPORTANTES</div>
+        <div class="tablero-texto">
+            • Recordá que los pagos son del 1 al 10 de cada mes.<br>
+            • Si tenés problemas de carga, reiniciá tu router.<br>
+            • Actualización de App TV1 disponible (10/03).
+        </div>
+    </div>
+
+    <div class="seccion-titulo">📺 TELEVISIÓN DIGITAL</div>
+    <a href="TU_LINK_APK_1" class="btn">Descargar App TV1</a>
+
+    <div class="seccion-titulo">🎬 PELÍCULAS Y SERIES</div>
+    <a href="TU_LINK_APK_2" class="btn">Descargar App PS1</a>
+
+    <div class="seccion-titulo">⚽ DEPORTES</div>
+    <a href="TU_LINK_APK_3" class="btn">Descargar App Dep1</a>
+
+    <div class="footer">SOPORTE TÉCNICO EXCLUSIVO - REY PANDA</div>
+
 </body>
 </html>
